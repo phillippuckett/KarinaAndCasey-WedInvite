@@ -1,0 +1,8 @@
+{
+  "name": "karinaandcasey",
+  "description": "karina and casey wedding site",
+  "repository": "https://github.com/phillippuckett88/heroku/karinaandcasey",
+  "logo": "http://node-js-sample.herokuapp.com/node.svg",
+  "keywords": ["node", "express", "static"],
+  "image": "heroku/nodejs"
+}

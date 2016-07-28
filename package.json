@@ -1,0 +1,23 @@
+{
+  "name": "karinaandcasey",
+  "version": "1.0.0",
+  "description": "karina and casey wedding site",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phillippuckett88/karinaandcasey.git"
+  },
+  "author": "phillip puckett",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phillippuckett88/karinaandcasey/issues"
+  },
+  "homepage": "https://github.com/phillippuckett88/karinaandcasey#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
