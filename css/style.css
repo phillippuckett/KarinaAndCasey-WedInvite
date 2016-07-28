@@ -52,7 +52,7 @@ body {
     margin: 0; padding: 0;
     background-color: rgba(0,0,0,.5);
     font-size: 50vh;
-    height: 175px;
+    min-height: 10vh;
     width: 100%;
 }
 
