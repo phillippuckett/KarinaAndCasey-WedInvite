@@ -147,7 +147,7 @@ i.fa:hover { color: rgba(0,0,0,00); }
     display: block;
 }
 
-.dropdown-content a:hover { background-color: rgba(66,71,64,.5); color: rgb(255,255,240); }
+.dropdown-content a:hover { color: rgba(66,71,64,.25); }
 
 .show { display:block; }
 /* DROPDOWN */
