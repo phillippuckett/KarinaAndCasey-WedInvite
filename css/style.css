@@ -9,8 +9,8 @@ body {
     margin: 0; padding: 0; 
     background-image: url('/woodbg.jpg');
     background-size: contain;
-    height: 100%;
-    width: 100vw;
+    min-height: 100%;
+    min-width: 100vw;
     }
 .printTitle {
     margin: 0; padding: 0;
@@ -40,7 +40,7 @@ body {
 }
 .printSubText {
     margin:0; padding:0;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 3.25vh;
 }
 /* BASE */
@@ -53,7 +53,7 @@ body {
     background-color: rgba(0,0,0,.5);
     font-size: 50vh;
     min-height: 10vh;
-    width: 100%;
+    min-width: 100%;
 }
 
 i.fa {
@@ -71,18 +71,18 @@ i.fa:hover { background-color: lavenderblush; }
     margin: 0; padding: 7.5vh 0 0 0;
     text-align: center;
     /*height: 1250px;*/
-    width: 100%;
+   min-width: 100%;
 }
 .line { 
     margin: 1.25vh 5vw; padding: 0;
     background-color: #443F46;
-    height:10px;
+    min-height:10px;
 }
 /* HERO */
 
 
 
-/* RECEPTION */
+/* EVENT */
 .event {
     margin: 1.25vh; padding: 10vh 0;
     background-color: lavenderblush;
@@ -102,7 +102,14 @@ i.fa:hover { background-color: lavenderblush; }
 }
 
 .event a {
+    color: rgba(50,65,65,.5);
+    text-decoration: none;
+}
+.event a:hover {
     color: #443F46;
     text-decoration: none;
 }
-/* RECEPTION */
+/* EVENT */
+
+/* SLIDESHOW */
+/* SLIDESHOW */
