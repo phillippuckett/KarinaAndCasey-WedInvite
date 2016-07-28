@@ -58,7 +58,7 @@ i.fa {
     font-size: 5vh;
     float: left;
 }
-i.fa:hover { color: rgba(0,0,0,00); }
+i.fa:hover { color: rgba(255,255,240,.25); }
 /* HEADER MENU*/
 
 
