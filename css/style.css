@@ -1,0 +1,108 @@
+/* BASE */
+html { 
+    margin: 0; padding: 0; 
+    letter-spacing: .25vh;
+    color: #443F46;
+    }
+
+body { 
+    margin: 0; padding: 0; 
+    background-image: url('/woodbg.jpg');
+    background-size: contain;
+    height: 100%;
+    width: 100vw;
+    }
+.printTitle {
+    margin: 0; padding: 0;
+    font-family: 'Oswald', sans-serif;
+    font-size: 7.5vh;
+    display: inline-flex;
+}
+.printSubTitle {
+    margin: 2.5vh 0; padding: 0;
+    font-family: 'Oswald', sans-serif;
+    font-size: 5vh;
+}
+.cursiveTitle {
+    margin:0; padding:0;
+    font-family: 'Alex Brush', cursive;
+    font-size: 7.5vh;
+}
+.cursiveSubTitle {
+    margin:0; padding:0;
+    font-family: 'Alex Brush', cursive;
+    font-size: 5vh;
+}
+.printText {
+    margin:0; padding:0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5vh;
+}
+.printSubText {
+    margin:0; padding:0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.25vh;
+}
+/* BASE */
+
+
+
+/* HEADER MENU*/
+.menu {
+    margin: 0; padding: 0;
+    background-color: rgba(0,0,0,.5);
+    font-size: 50vh;
+    height: 175px;
+    width: 100%;
+}
+
+i.fa {
+    font-size: 5vh;
+    margin: 1.25vh; padding: 1.25vh;
+    background-color:rgba(255,225,225, .5);
+    float: left;
+}
+i.fa:hover { background-color: lavenderblush; }
+/* HEADER MENU*/
+
+
+/* HERO */
+.jumbotron {
+    margin: 0; padding: 7.5vh 0 0 0;
+    text-align: center;
+    /*height: 1250px;*/
+    width: 100%;
+}
+.line { 
+    margin: 1.25vh 5vw; padding: 0;
+    background-color: #443F46;
+    height:10px;
+}
+/* HERO */
+
+
+
+/* RECEPTION */
+.event {
+    margin: 1.25vh; padding: 10vh 0;
+    background-color: lavenderblush;
+    text-align: center;
+    -webkit-box-shadow: 0px 2.5px 2.5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2.5px 2.5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 2.5px 2.5px 0px rgba(0,0,0,0.75);
+}
+
+.event img {
+    margin: 0; padding: 0;
+    background-image: url('/house.jpg');
+    background-size: contain;
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+}
+
+.event a {
+    color: #443F46;
+    text-decoration: none;
+}
+/* RECEPTION */
