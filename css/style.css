@@ -57,12 +57,12 @@ body {
 }
 
 i.fa {
-    background-color: rgba(255,255,240, .5);
-    font-size: 5vh;
     margin: 1.25vh; padding: 1.25vh;
+    background-color: rgba(0,0,0,.00); color: rgb(255,255,240);
+    font-size: 5vh;
     float: left;
 }
-i.fa:hover { background-color: rgba(0,0,0,.00); }
+i.fa:hover { color: rgba(0,0,0,00); }
 /* HEADER MENU*/
 
 
