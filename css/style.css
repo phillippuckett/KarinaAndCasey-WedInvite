@@ -12,17 +12,13 @@ body {
     min-height: 100%;
     min-width: 100vw;
     }
-.printTitle {
+.title {
     margin: 0; padding: 3.75vh 0;
     font-family: 'Oswald', sans-serif;
     font-size: 7.5vh;
     display: inline-flex;
 }
-.printSubTitle {
-    margin: 0; padding: 3.75vh 0;
-    font-family: 'Oswald', sans-serif;
-    font-size: 5vh;
-}
+
 .cursiveTitle {
     margin: 0; padding: 0;
     font-family: 'Alex Brush', cursive;
@@ -72,7 +68,7 @@ i.fa:hover { color: rgba(0,0,0,00); }
     text-align: center;
     min-width: 100%;
 }
-.line { 
+.titleLine { 
     margin: 1.25vh 5vw; padding: 0;
     background-color: rgb(66,71,64);
     min-height:10px;
@@ -83,7 +79,7 @@ i.fa:hover { color: rgba(0,0,0,00); }
 
 /* EVENT */
 .event {
-    background-color: rgb(255, 255, 240);
+    background-color: rgba(255,255,240,.9);
     margin: 1.25vh; padding: 10vh 0;
     text-align: center;
     -webkit-box-shadow: 0px 2.5px 2.5px 0px rgba(0,0,0,0.5);
@@ -118,8 +114,13 @@ i.fa:hover { color: rgba(0,0,0,00); }
     max-width: 200px;
 }
 
-.regLink img:hover { border: 3.75px solid rgba(66,71,64, .5); }
-/*.regLink img:hover { border: 5px solid rgb(212,175,55); background-color: rgba(212,175,55,.25); }*/
+.regLink img:hover { border: 3.75px solid rgba(66,71,64, .5); border-radius: 1.25vh; }
+
+.textLine { 
+    margin: 12.5vh 5vw; padding: 0;
+    background-color: rgba(66,71,64,.25);
+    height: 5px;
+}
 /* EVENT */
 
 
