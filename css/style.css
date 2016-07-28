@@ -118,8 +118,8 @@ i.fa:hover { color: rgba(0,0,0,00); }
 
 .textLine { 
     margin: 12.5vh 5vw; padding: 0;
-    background-color: rgba(66,71,64,.25);
-    height: 5px;
+    background-color: rgba(66,71,64,.5);
+    height: 3.75px;
 }
 /* EVENT */
 
