@@ -13,33 +13,33 @@ body {
     min-width: 100vw;
     }
 .printTitle {
-    margin: 0; padding: 0;
+    margin: 0; padding: 3.75vh 0;
     font-family: 'Oswald', sans-serif;
     font-size: 7.5vh;
     display: inline-flex;
 }
 .printSubTitle {
-    margin: 2.5vh 0; padding: 0;
+    margin: 0; padding: 3.75vh 0;
     font-family: 'Oswald', sans-serif;
     font-size: 5vh;
 }
 .cursiveTitle {
-    margin:0; padding:0;
+    margin: 0; padding: 0;
     font-family: 'Alex Brush', cursive;
     font-size: 7.5vh;
 }
 .cursiveSubTitle {
-    margin:0; padding:0;
+    margin: 0; padding: 0;
     font-family: 'Alex Brush', cursive;
     font-size: 5vh;
 }
 .printText {
-    margin:0; padding:0;
+    margin: 0; padding: 0;
     font-family: 'Montserrat', sans-serif;
     font-size: 5vh;
 }
 .printSubText {
-    margin:0; padding:0;
+    margin: 0; padding: 0;
     font-family: 'Roboto', sans-serif;
     font-size: 3.25vh;
 }
@@ -111,8 +111,7 @@ i.fa:hover { color: rgba(0,0,0,00); }
 
 .regLink img {
     border: 3.75px solid rgba(0,0,0,0);
-    /*border-radius: 1.25vh;*/
-    margin: 3.75vh 2.5vh; padding: 0;
+    margin: 5vh 2.5vh 0 2.5vh; padding: 0;
     display: inline-flex;
     background-size: contain;
     max-height: 200px;
