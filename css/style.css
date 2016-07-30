@@ -7,7 +7,7 @@ html {
 
 body { 
     margin: 0; padding: 0; 
-    background-image: url('/woodbg.jpg');
+    background-image: url('/img/woodbg.jpg');
     background-size: contain;
     min-height: 100%;
     min-width: 100vw;
@@ -18,7 +18,11 @@ body {
     font-size: 7.5vh;
     display: inline-flex;
 }
-
+.printSubTitle {
+    margin: 0; padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5vh;
+}
 .cursiveTitle {
     margin: 0; padding: 0;
     font-family: 'Great Vibes', cursive;
@@ -35,8 +39,8 @@ body {
     font-size: 5vh;
 }
 .printSubText {
-    margin: 0; padding: 0;
-    font-family: 'Roboto', sans-serif;
+    margin: 2.5vh 0; padding: 0;
+    font-family: 'Montserrat', sans-serif;
     font-size: 2.5vh;
 }
 /* BASE */
@@ -71,7 +75,7 @@ i.fa:hover { color: rgba(255,255,240,.5); }
 .titleLine { 
     margin: 1.25vh 5vw; padding: 0;
     background-color: rgb(66,71,64);
-    min-height:10px;
+    min-height:1vh;
 }
 /* HERO */
 
@@ -121,7 +125,7 @@ i.fa:hover { color: rgba(255,255,240,.5); }
 .textLine { 
     margin: 12.5vh 5vw; padding: 0;
     background-color: rgba(66,71,64,.5);
-    height: 3.75px;
+    height: .125vh;
 }
 /* EVENT */
 
