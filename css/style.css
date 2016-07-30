@@ -110,8 +110,8 @@ i.fa:hover { color: rgba(255,255,240,.5); }
     margin: 5vh 2.5vh 0 2.5vh; padding: 0;
     display: inline-flex;
     background-size: contain;
-    max-height: 200px;
-    max-width: 200px;
+    max-height: 7.5vh;
+    max-width: 7.5vh;
 }
 
 .regLink img:hover { border: 3.75px solid rgba(66,71,64, .5); border-radius: 1.25vh; }
