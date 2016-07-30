@@ -91,8 +91,8 @@ i.fa:hover { color: rgba(255,255,240,.5); }
     margin: 0; padding: 0;
     background-image: url('/house.jpg');
     background-size: contain;
-    height: 500px;
-    width: 500px;
+    height: 5vh;
+    width: 5vh;
     border-radius: 50%;
 }
 
