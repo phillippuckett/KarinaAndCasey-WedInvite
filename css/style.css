@@ -37,7 +37,7 @@ body {
 .printSubText {
     margin: 0; padding: 0;
     font-family: 'Roboto', sans-serif;
-    font-size: 3.25vh;
+    font-size: 2.5vh;
 }
 /* BASE */
 
@@ -88,12 +88,14 @@ i.fa:hover { color: rgba(255,255,240,.5); }
 }
 
 .eventImg {
-    margin: 0; padding: 0;
-    background-image: url('/house.jpg');
+    margin: 0 auto; padding: 0;
     background-size: contain;
     height: 25vh;
     width: 25vh;
     border-radius: 50%;
+    -webkit-box-shadow: inset 0px 0px .75vh .25vh rgba(255,255,240,1);
+    -moz-box-shadow: inset 0px 0px .75vh .25vh rgba(255,255,240,1);
+    box-shadow: inset 0px 0px .75vh .25vh rgba(255,255,240,1);
 }
 
 .event a {
@@ -114,7 +116,7 @@ i.fa:hover { color: rgba(255,255,240,.5); }
     max-width: 10vh;
 }
 
-.regLink img:hover { border: 3.75px solid rgba(66,71,64, .5); border-radius: 1.25vh; }
+.regLink img:hover { opacity: .5; /*border: 3.75px solid rgba(66,71,64, .5); border-radius: 1.25vh;*/ }
 
 .textLine { 
     margin: 12.5vh 5vw; padding: 0;
@@ -154,8 +156,9 @@ i.fa:hover { color: rgba(255,255,240,.5); }
 
 /* FOOTER */
 .footer {
+    background-color:white;
     margin: 0; padding:0;
-    background-color: rgba(0,0,0,00);
     height: 50vh;
+    width: 100%;
 }
 /* FOOTER */
