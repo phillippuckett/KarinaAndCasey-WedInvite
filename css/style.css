@@ -8,13 +8,14 @@ html {
     letter-spacing: .25vh;
     color: rgb(66, 71,64);
     }
+body{margin: 0; padding: 0;}
 
-body { 
-    margin: 0; padding: 0; 
+.adjuster { 
+    margin: 0 auto; padding-bottom: 1.25vh; 
     background-image: url('/img/woodbg.jpg');
     background-size: contain;
     min-height: 100%;
-    min-width: 100vw;
+    max-width: 800px;
     }
 .printLg {
     margin: 0; padding: 3.75vh 0;
@@ -117,16 +118,14 @@ i.fa:hover { color: rgba(255,255,240,.5); }
     text-decoration: none;
 }
 
-.regLink img {
-    border: 3.75px solid rgba(0,0,0,0);
-    margin: 5vh 2.5vh 0 2.5vh; padding: 0;
-    display: inline-flex;
+.regLinkBlock img {
+    margin: 5vh 2.5vh; padding: 0;
+    display: inline-block;
     background-size: contain;
     max-height: 10vh;
-    max-width: 10vh;
+    max-width: 25vh;
 }
-
-.regLink img:hover { opacity: .5; /*border: 3.75px solid rgba(66,71,64, .5); border-radius: 1.25vh;*/ }
+.regLinkBlock img:hover { opacity: .5; }
 
 .textLine { 
     margin: 12.5vh 5vw; padding: 0;
@@ -174,7 +173,6 @@ i.fa:hover { color: rgba(255,255,240,.5); }
 .footer {
     background-color:white;
     margin: 0; padding: 5vh 0 0 0;
-    min-height: 50vh;
     width: 100%;
     text-align: center;
 }
