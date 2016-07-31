@@ -1,6 +1,6 @@
 
 // DROPDOWN MENU //
-var myFunction = function () {
+var dropDown = function () {
     document.getElementById("myDropdown").classList.toggle("show");
 };
 

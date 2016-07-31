@@ -18,10 +18,12 @@
 
 
     <div class="menu">
-        <i class="fa fa-bars" onclick="myFunction()">
+        <i class="fa fa-bars" onclick="dropDown()">
                 <div id="myDropdown" class="dropdown-content">
                     <a class="printText" href="#ceremony">Ceremony</a>
                     <a class="printText" href="#reception">Reception</a>
+                    <a class="printText" href="#bride">The Bride</a>
+                    <a class="printText" href="#groom">The Groom</a>
                     <a class="printText" href="#registry">Registries</a>
                 </div>
             </button>
@@ -31,23 +33,27 @@
 
 
     <div class="jumbotron">
-        <h1 class="title">SAVE
-            <p class="cursiveTitle">The</p>DATE</h1>
+        <div style="display: inline-flex;">
+            <h1 class="printTitle">SAVE</h1>
+            <h1 class="cursiveTitle">The</h1>
+            <h1 class="printTitle">DATE</h1>
+        </div>
         <div class="titleLine"></div>
         <h1 class="printText">KARINA & CASEY</h1>
-        <p class="printSubTitle">ARE GETTING MARRIED!</p>
+        <h1 class="printSubTitle">ARE GETTING MARRIED!</h1>
         <div class="titleLine"></div>
-        <p class="title"> 09.03.2016</p>
+        <h1 class="printTitle"> 09.03.2016</h1>
     </div>
 
 
     <div class="event" id="ceremony">
         <h1 class="cursiveSubTitle">The</h1>
-        <h1 class="cursiveTitle">Wedding Ceremony</h1>
+        <h1 class="cursiveTitle">Temple Sealing</h1>
         <h1 class="cursiveSubTitle">will be held in the</h1>
-        <h1 class="cursiveSubTitle">Salt Lake Temple</h1>
         <br>
         <div class="eventImg" style="background-image: url(/img/temple.jpg);"></div>
+        <br>
+        <h1 class="cursiveSubTitle">Provo City Center <br>Temple</h1>
         <br>
         <a href="https://www.google.com/maps/place/Salt+Lake+Temple/@40.7704462,-111.8919228,15z/data=!4m2!3m1!1s0x0:0x7f871e221aa7395d?sa=X&ved=0ahUKEwj9hOy8mJzOAhUL2GMKHQpGBSMQ_BIIhQEwCw"
             target="_blank" class="printSubText">
@@ -58,13 +64,18 @@
             84150
         </a>
 
+
+
         <div class="textLine" id="reception"></div>
         <h1 class="cursiveSubTitle">The</h1>
         <h1 class="cursiveTitle">Reception</h1>
         <h1 class="cursiveSubTitle">will be held at</h1>
-        <h1 class="cursiveSubTitle">This is the Place</h1>
         <br>
         <div class="eventImg" style="background-image: url(/img/house.jpg);"></div>
+        <br>
+        <h1 class="cursiveSubTitle">This is the Place</h1>
+        <h1 class="cursiveSubTitle">Brigham Young Farmhouse</h1>
+        <h1 class="printSubText">5:00 - 9:00 PM</h1>
         <br>
         <a href="https://www.google.com/maps/place/2601+Sunnyside+Ave+S,+Salt+Lake+City,+UT+84108/@40.7542184,-111.8231259,17z/data=!3m1!4b1!4m5!3m4!1s0x87525fd50882b9d7:0x71f5a34a0239b90c!8m2!3d40.7542144!4d-111.8209372"
             target="_blank" class="printSubText">
@@ -74,7 +85,18 @@
             <br>
             84108
         </a>
-        <p class="printSubText">5:00 - 9:00 PM</p>
+
+
+
+        <div class="textLine" id="bride"></div>
+        <h1 class="cursiveTitle">The Bride</h1>
+        <h1 class="printSubText">Likes to eat chocolate</h1>
+
+
+
+        <div class="textLine" id="groom"></div>
+        <h1 class="cursiveTitle">The Groom</h1>
+        <h1 class="printSubText">Likes to lift weights</h1>
 
 
 
