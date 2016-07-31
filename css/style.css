@@ -50,9 +50,9 @@ body {
 .menu {
     margin: 0; padding: 0;
     background-color: rgba(0,0,0,.5);
-    font-size: 50vh;
     min-height: 10vh;
     min-width: 100%;
+    font-size: 50vh;
 }
 
 .menuFont {
@@ -132,6 +132,12 @@ i.fa:hover { color: rgba(255,255,240,.5); }
     margin: 12.5vh 5vw; padding: 0;
     background-color: rgba(66,71,64,.5);
     height: .125vh;
+}
+.eventText {
+    margin: 0 5vw; padding: 0;
+    color: rgba(66,71,64,.75);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
 }
 /* EVENT */
 
