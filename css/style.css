@@ -149,7 +149,7 @@ i.fa:hover { color: rgba(255,255,240,.5); }
     display: none;
     position: absolute;
     background-color: rgb(255,255,240);
-    width: 92.5vw; max-width: 760px;
+    width: 91.25vw; max-width: 760px;
     -webkit-box-shadow: 0px 2.5px 2.5px 0px rgba(0,0,0,0.5);
     -moz-box-shadow: 0px 2.5px 2.5px 0px rgba(0,0,0,0.5);
     box-shadow: 0px 2.5px 2.5px 0px rgba(0,0,0,0.5);
