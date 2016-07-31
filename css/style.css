@@ -19,7 +19,7 @@ body {
 .printLg {
     margin: 0; padding: 3.75vh 0;
     font-family: 'Oswald', sans-serif;
-    font-size: 44px;
+    font-size: 44px; /*7.5vh*/ /*2.75em*/
     display: inline-flex;
 }
 .printMd {
