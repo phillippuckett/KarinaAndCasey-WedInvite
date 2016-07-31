@@ -16,36 +16,31 @@ body {
     min-height: 100%;
     min-width: 100vw;
     }
-.printTitle {
+.printLg {
     margin: 0; padding: 3.75vh 0;
     font-family: 'Oswald', sans-serif;
-    font-size: 2.65em;
+    font-size: 2.75em;
     display: inline-flex;
 }
-.printSubTitle {
+.printMd {
     margin: 0; padding: 0;
     font-family: 'Montserrat', sans-serif;
-    font-size: 1em;
+    font-size: 1.75em;
 }
-.cursiveTitle {
+.printSm {
+    margin: 0; padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.125em;
+}
+.cursiveLg {
     margin: 0; padding: 0;
     font-family: 'Great Vibes', cursive;
-    font-size: 2.5em;
+    font-size: 2.75em;
 }
-.cursiveSubTitle {
-    margin: 0; padding: 0;
+.cursiveSm {
+    margin: 0 1.25vw; padding: 0;
     font-family: 'Great Vibes', cursive;
-    font-size: 1.85em;
-}
-.printText {
-    margin: 0; padding: 0;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.5em;
-}
-.printSubText {
-    margin: 2.5vh 0; padding: 0;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1em;
+    font-size: 1.75em;
 }
 /* BASE */
 
@@ -58,6 +53,13 @@ body {
     font-size: 50vh;
     min-height: 10vh;
     min-width: 100%;
+}
+
+.menuFont {
+    margin: 0; padding: 3.75vh 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: .75em;
+    display: inline-flex;
 }
 
 i.fa {
@@ -165,8 +167,22 @@ i.fa:hover { color: rgba(255,255,240,.5); }
 /* FOOTER */
 .footer {
     background-color:white;
-    margin: 0; padding:0;
-    height: 50vh;
+    margin: 0; padding: 5vh 0 0 0;
+    min-height: 50vh;
     width: 100%;
+    text-align: center;
+}
+.citeTitle {
+    margin: 2.5vh; padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(66, 71,64,.5);
+    font-size: .5em;
+    text-decoration: none;
+}
+.citeText {
+    margin: 2.5vh; padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(66, 71,64,.25);
+    font-size: .25em;
 }
 /* FOOTER */
