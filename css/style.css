@@ -11,6 +11,13 @@ html {
     }
 body{margin: 0; padding: 0;}
 
+.adjuster { 
+    margin: 0 auto; padding-bottom: 1.25%; 
+    background-image: url('/img/woodbg.jpg');
+    background-size: contain;
+    min-height: 100%;
+    max-width: 800px;
+}
 .printLg {
     margin: auto; padding: 5% 0;
     font-family: 'Oswald', sans-serif;
@@ -180,12 +187,6 @@ i.fa:hover { color: rgba(255,255,240,.5); }
 /* FOOTER */
 
 
-/* QUERIES */
+/*********** QUERIES ***********/
 @media only screen and (min-width: 600px) {
-.adjuster { 
-    margin: 0 auto; padding-bottom: 1.25%; 
-    background-image: url('/img/woodbg.jpg');
-    background-size: contain;
-    min-height: 100%;
-    max-width: 800px;
     }
