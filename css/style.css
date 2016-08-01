@@ -5,43 +5,43 @@
 
 html { 
     margin: 0; padding: 0; 
-    letter-spacing: .25vh;
+    letter-spacing: .25%;
     color: rgb(66, 71,64);
     }
 body{margin: 0; padding: 0;}
 
 .adjuster { 
-    margin: 0 auto; padding-bottom: 1.25vh; 
+    margin: 0 auto; padding-bottom: 2.5%; 
     background-image: url('/img/woodbg.jpg');
     background-size: contain;
     min-height: 100%;
     max-width: 800px;
     }
 .printLg {
-    margin: 0; padding: 3.75vh 0;
+    margin: auto; padding: 5% 0;
     font-family: 'Oswald', sans-serif;
-    font-size: 2.75em; /*7.5vh*/ /*44px*/
+    font-size: 275%;
     display: inline-flex;
 }
 .printMd {
     margin: 0; padding: 0;
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.75em;
+    font-size: 150%;
 }
 .printSm {
     margin: 0; padding: 0;
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.125em;
+    font-size: 112.5%;
 }
 .cursiveLg {
     margin: 0; padding: 0;
     font-family: 'Great Vibes', cursive;
-    font-size: 2.75em;
+    font-size: 275%;
 }
 .cursiveSm {
-    margin: 0 1.25vw; padding: 0;
+    margin: 0 2.5%; padding: 0;
     font-family: 'Great Vibes', cursive;
-    font-size: 1.75em;
+    font-size: 150%;
 }
 /* BASE */
 
@@ -49,24 +49,22 @@ body{margin: 0; padding: 0;}
 
 /* HEADER MENU*/
 .menu {
-    margin: 0; padding: 0;
+    margin: 0; padding: 2.5% 0;
     background-color: rgba(0,0,0,.5);
-    min-height: 10vh;
-    min-width: 100%;
-    font-size: 50vh;
+    min-height: 30px;
 }
 
-.menuFont {
-    margin: 0; padding: 3.75vh 0;
+.menuText {
+    margin: 0; padding: 0;
     font-family: 'Montserrat', sans-serif;
-    font-size: .75em;
+    font-size: 62.5%;
     display: inline-flex;
 }
 
 i.fa {
-    margin: 1.25vh; padding: 1.25vh;
-    background-color: rgba(0,0,0,.00); color: rgb(255,255,240);
-    font-size: 5vh;
+    margin: 0 2.5%; padding: 0;
+    background-color: rgba(0,0,0,0); color: rgb(255,255,240);
+    font-size: 200%;
     float: left;
 }
 i.fa:hover { color: rgba(255,255,240,.5); }
@@ -80,9 +78,8 @@ i.fa:hover { color: rgba(255,255,240,.5); }
     min-width: 100%;
 }
 .titleLine { 
-    margin: 1.25vh 5vw; padding: 0;
+    margin: 1.25% 7.5%; padding: .625% 0;
     background-color: rgb(66,71,64);
-    min-height:1vh;
 }
 /* HERO */
 
@@ -91,7 +88,7 @@ i.fa:hover { color: rgba(255,255,240,.5); }
 /* EVENT */
 .event {
     background-color: rgba(255,255,240,.9);
-    margin: 1.25vh; padding: 10vh 0;
+    margin: 2.5%; padding: 20% 0;
     text-align: center;
     -webkit-box-shadow: 0px 2.5px 2.5px 0px rgba(0,0,0,0.5);
     -moz-box-shadow: 0px 2.5px 2.5px 0px rgba(0,0,0,0.5);
@@ -99,14 +96,13 @@ i.fa:hover { color: rgba(255,255,240,.5); }
 }
 
 .eventImg {
-    margin: 0 auto; padding: 0;
+    margin: 0 auto; padding: 25% 0;
     background-size: contain;
-    height: 25vh;
-    width: 25vh;
+    width: 50%;
     border-radius: 50%;
-    -webkit-box-shadow: inset 0px 0px .75vh .25vh rgba(255,255,240,1);
-    -moz-box-shadow: inset 0px 0px .75vh .25vh rgba(255,255,240,1);
-    box-shadow: inset 0px 0px .75vh .25vh rgba(255,255,240,1);
+    -webkit-box-shadow: inset 0px 0px 5px 2.5px rgba(255,255,240,1);
+    -moz-box-shadow: inset 0px 0px 5px 2.5px rgba(255,255,240,1);
+    box-shadow: inset 0px 0px 5px 2.5px rgba(255,255,240,1);
 }
 
 .event a {
@@ -119,21 +115,20 @@ i.fa:hover { color: rgba(255,255,240,.5); }
 }
 
 .regLinkBlock img {
-    margin: 5vh 2.5vh; padding: 0;
+    margin: 2.5% 2.5%; padding: 10% 0 0 0;
     display: inline-block;
     background-size: contain;
-    max-height: 10vh;
-    max-width: 25vh;
+    min-width: 200px;
+    max-width: 25%;
 }
 .regLinkBlock img:hover { opacity: .5; }
 
 .textLine { 
-    margin: 12.5vh 5vw; padding: 0;
+    margin: 12.5% 10%; padding: .125% 0;
     background-color: rgba(66,71,64,.5);
-    height: .125vh;
 }
 .eventText {
-    margin: 0 5vw; padding: 0;
+    margin: 0 10%; padding: 0;
     color: rgba(66,71,64,.75);
     font-family: 'Montserrat', sans-serif;
     font-size: 1em;
@@ -149,7 +144,7 @@ i.fa:hover { color: rgba(255,255,240,.5); }
     display: none;
     position: absolute;
     background-color: rgb(255,255,240);
-    width: 91.25vw; max-width: 760px;
+    width: 95%; max-width: 760px;
     -webkit-box-shadow: 0px 2.5px 2.5px 0px rgba(0,0,0,0.5);
     -moz-box-shadow: 0px 2.5px 2.5px 0px rgba(0,0,0,0.5);
     box-shadow: 0px 2.5px 2.5px 0px rgba(0,0,0,0.5);
@@ -157,7 +152,7 @@ i.fa:hover { color: rgba(255,255,240,.5); }
 
 .dropdown-content a {
     border-bottom: 1px solid rgb(66,71,64);
-    margin: 0 2.5vh; padding: 2.5vh 0;
+    margin: 0 5%; padding: 5% 0;
     text-align: center;
     color: rgb(66,71,64);
     text-decoration: none;
@@ -172,21 +167,20 @@ i.fa:hover { color: rgba(255,255,240,.5); }
 /* FOOTER */
 .footer {
     background-color:white;
-    margin: 0; padding: 5vh 0 0 0;
-    width: 100%;
+    margin: 0; padding: 10% 0;
     text-align: center;
 }
 .citeTitle {
-    margin: 2.5vh; padding: 0;
+    margin: 0; padding: 0;
     font-family: 'Montserrat', sans-serif;
     color: rgba(66, 71,64,.5);
-    font-size: .5em;
+    font-size: 75%;
     text-decoration: none;
 }
 .citeText {
-    margin: 2.5vh; padding: 0;
+    margin: 0; padding: 0 0 5% 0;
     font-family: 'Montserrat', sans-serif;
     color: rgba(66, 71,64,.25);
-    font-size: .25em;
+    font-size: 50%;
 }
 /* FOOTER */
