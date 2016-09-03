@@ -250,6 +250,30 @@ i.fa:hover {
 
     .menuText:hover { color: rgb(66,71,64); }
 
+    .jumbotron {
+        /*border: 1px solid black;*/
+        margin: 0; padding: 0;
+        display: inline-flex;
+    }
+
+    .jumbotronInline {
+        /*border: 1px solid gold;*/
+        margin: 0 1.25%; padding: 0;
+        width: 100%;
+    }
+
+.printLg { 
+    /*border: 1px solid black;*/
+    margin: 15% auto; padding: 5% 0;
+    display: inline-block;
+}
+
+    .titleLine { 
+    /*border: 1px solid red;*/
+    margin: 10% 5%; padding: 1.25% 0;
+    background-color: rgb(66,71,64);
+}
+
 }
 /* TABLET */
 
