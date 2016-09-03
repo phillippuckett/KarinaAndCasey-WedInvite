@@ -260,9 +260,9 @@ i.fa:hover {
 
 
 /* DESKTOP */
-@media screen and  (min-width: 875px) {
+/*@media screen and  (min-width: 1000px) {
 
-    body { display: none; }
+    body { max-width: 1000px; }
 
-}
+}*/
 /* DESKTOP */
