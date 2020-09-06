@@ -20,7 +20,7 @@
 
   "homepage": "https://github.com/phillippuckett88/karinaandcasey#readme",
   "dependencies": {
-    "ejs": "2.3.3",
+    "ejs": "3.1.5",
     "express": "^4.14.0"
   },
   
